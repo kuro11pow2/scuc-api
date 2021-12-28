@@ -9,6 +9,7 @@ public interface MatchRecordService {
 
     Long register(MatchRecordDTO dto);
     List<MatchRecordDTO> getList();
+    MatchRecordDTO get(Long mno);
 
     default MatchRecord dtoToEntity(MatchRecordDTO dto) {
         MatchRecord matchRecord = MatchRecord.builder()

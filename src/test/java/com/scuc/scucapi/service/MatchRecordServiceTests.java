@@ -1,7 +1,6 @@
 package com.scuc.scucapi.service;
 
 import com.scuc.scucapi.dto.MatchRecordDTO;
-import com.scuc.scucapi.entity.MatchRecord;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
